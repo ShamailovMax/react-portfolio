@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.9e788b56.css",
+    "main.js": "/react-portfolio/static/js/main.99011e29.js",
+    "static/js/787.37373aa6.chunk.js": "/react-portfolio/static/js/787.37373aa6.chunk.js",
+    "static/media/jungles.jpg": "/react-portfolio/static/media/jungles.eb02e4a998835045d936.jpg",
+    "static/media/Reader.jpg": "/react-portfolio/static/media/Reader.96e3534488f71287897e.jpg",
+    "static/media/FoodOrderApp.jpg": "/react-portfolio/static/media/FoodOrderApp.9379b3894faf8e47b915.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.9e788b56.css.map": "/react-portfolio/static/css/main.9e788b56.css.map",
+    "main.99011e29.js.map": "/react-portfolio/static/js/main.99011e29.js.map",
+    "787.37373aa6.chunk.js.map": "/react-portfolio/static/js/787.37373aa6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e788b56.css",
+    "static/js/main.99011e29.js"
+  ]
+}
