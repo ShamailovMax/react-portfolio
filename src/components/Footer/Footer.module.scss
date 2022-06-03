@@ -7,6 +7,7 @@
   .footerInst {
     color: rgba(67, 190, 29, 0.497);
     margin-right: 50px;
+    transition: .5s;
 
     &:hover {
       color: rgb(199, 32, 132);
@@ -15,6 +16,7 @@
   .footerTelegram {
     color: rgba(67, 190, 29, 0.497);
     margin-right: 50px;
+    transition: .5s;
 
     &:hover {
       color: rgb(32, 140, 199);
@@ -23,15 +25,18 @@
 
   .footerGitHub {
     color: rgba(67, 190, 29, 0.497);
+    transition: .5s;
 
     &:hover {
       color: rgb(199, 152, 32);
     }
   }
   @media screen and (max-width: 800px) {
-    .footerInst,
-    .footerTelegram {
-      margin-right: 20px;
-    }
+      padding: 40px 0;
+      text-align: center;
+      .footerInst,
+      .footerTelegram {
+        margin-right: 20px;
+      }
   }
 }

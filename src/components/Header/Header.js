@@ -3,7 +3,7 @@ import style from "./Header.module.scss";
 import { FiMenu, FiX } from "react-icons/fi";
 
 export const Header = ({ headerLinks }) => {
-  const [menuClicked, setMenuClicked] = useState(false);
+  const [menuClicked, setMenuClicked] = useState(true);
 
   const toggleMenuClick = () => {
     setMenuClicked(!menuClicked);
