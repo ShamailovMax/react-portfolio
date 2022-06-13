@@ -11,6 +11,8 @@
 
     img {
       border-radius: 150px;
+      // width: 20%;
+      // height: 20%;
       //   margin-right: 5%;
     }
 
@@ -19,6 +21,60 @@
       //   width: 60%;
       padding: 10px;
       font-size: 26px;
+    }
+  }
+  .aboutStack {
+    margin: 50px auto 0 auto;
+    align-items: center;
+    width: 700px;
+
+    h2 {
+      text-transform: uppercase;
+      text-align: center;
+      color: rgb(39, 204, 36);
+    }
+
+    .aboutTechnologies {
+      padding: 10px;
+      font-size: 26px;
+      margin-top: 60px;
+
+      p {
+        text-align: left;
+      }
+
+      text-align: center;
+
+      ul {
+        // border-radius: 10px;
+      }
+      li {
+        border: 1px solid rgb(133, 133, 133);
+        text-align: center;
+        text-decoration: none;
+        list-style: none;
+        padding: 10px;
+        transition: .7s;
+
+        &:hover {
+          background-color: rgb(44, 44, 44);
+          color: rgb(39, 204, 36);
+        }
+      }
+
+      img {
+        text-align: center;
+        border: 1.5px solid transparent;
+        border-radius: 50%;
+        transition: 0.4s;
+        cursor: pointer;
+
+        &:hover {
+          // border: 1.5px solid #2cd7407c;
+          background-color: rgb(36, 36, 36);
+          // margin-top: 100px;
+        }
+      }
     }
   }
   @media screen and (max-width: 800px) {
@@ -35,6 +91,10 @@
       p {
         font-size: 22px;
       }
+    }
+
+    .aboutStack {
+      width: 80%;
     }
   }
 }

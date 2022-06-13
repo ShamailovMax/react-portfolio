@@ -11,9 +11,10 @@
   margin-bottom: -70px;
   z-index: 5;
 
-  .headerLogo {
+  .headerLogo, a {
     color: rgb(85, 255, 0);
     font-size: 1.5rem;
+    text-decoration: none;
   }
 
   .headerList {

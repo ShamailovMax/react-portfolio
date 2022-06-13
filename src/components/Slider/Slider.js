@@ -41,7 +41,6 @@ export const Slider = ({ imageURL, title, subtitle, flipped, projectURL }) => {
 
   return (
     <div
-      id="projects"
       className={inView ? `${style.slider} ${style.slider_zoom}` : style.slider}
       ref={ref}
     >

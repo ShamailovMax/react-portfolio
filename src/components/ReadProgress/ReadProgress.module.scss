@@ -1,0 +1,16 @@
+.progress {
+  height: 4px;
+  background: rgba(2, 199, 25, 0.742);
+  display: flex;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  z-index: 1;
+}
+
+@media screen and (max-width: 800px) {
+  .progress {
+    height: 5px;
+    background: rgb(2, 199, 25);
+  }
+}

@@ -1,0 +1,10 @@
+.githref {
+  color: rgb(92, 160, 80);
+
+  transition: 0.4s;
+
+  &:hover {
+    color: aliceblue;
+    text-decoration: none;
+  }
+}
